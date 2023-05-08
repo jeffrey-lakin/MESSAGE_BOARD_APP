@@ -30,7 +30,7 @@ username.send_keys(Keys.RETURN)
 time.sleep(3)
 inputs = driver.find_elements(By.TAG_NAME, 'input')
 password = inputs[-1]
-password.send_keys('Jcr=38251013')
+password.send_keys('**********')
 password.send_keys(Keys.RETURN)
 time.sleep(3)
 
